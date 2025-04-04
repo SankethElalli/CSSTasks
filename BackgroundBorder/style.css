@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: ivory;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.box {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    min-height: 200px;
+}
+
+.solid-border {
+    background-color: white;
+    border: 3px solid #000000;
+}
+
+.dashed-border {
+    background-color: white;
+    border: 2px dashed #000000;
+    border-radius: 15px;
+}
+
+.image-background {
+    background-image: url('https://picsum.photos/380/500');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.gradient-background {
+    background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+    color: white;
+    border: 2px solid transparent;
+}
+
+h2 {
+    margin-top: 0;
+    border-bottom: 2px solid currentColor;
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
