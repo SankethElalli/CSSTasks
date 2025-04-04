@@ -1,0 +1,72 @@
+.main-title {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Font Families */
+.serif-font {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.2em;
+}
+
+.sans-font {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+}
+
+.mono-font {
+    font-family: 'Courier New', monospace;
+    font-size: 1.2em;
+}
+
+/* Color Types */
+.hex-color {
+    color: #FF5733;
+    background-color: #F8F9FA;
+    padding: 10px;
+}
+
+.rgb-color {
+    color: rgb(60, 179, 113);
+    background-color: rgb(248, 249, 250);
+    padding: 10px;
+}
+
+.hsl-color {
+    color: hsl(271, 76%, 53%);
+    background-color: hsl(0, 0%, 98%);
+    padding: 10px;
+}
+
+/* Text Styles */
+.bold-text {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.italic-text {
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.decorated-text {
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 1.1em;
+}
+
+/* Section Styling */
+section {
+    margin: 30px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #2C3E50;
+    border-bottom: 2px solid #ECF0F1;
+    padding-bottom: 10px;
+}
