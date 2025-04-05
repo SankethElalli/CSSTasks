@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: ivory
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.box {
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.box1 {
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid #333;
+}
+
+.box2 {
+    padding: 25px;
+    border-top: 3px dotted #ff0000;
+    border-right: 3px dashed #00ff00;
+    border-bottom: 3px double #0000ff;
+    border-left: 3px solid #ff00ff;
+    margin: 20px;
+}
+
+.box3 {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    border: 2px solid #666;
+    margin-top: 15px;
+    margin-right: 25px;
+    margin-bottom: 35px;
+    margin-left: 45px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+p {
+    line-height: 1.5;
+    color: #666;
+}
